@@ -1,0 +1,29 @@
+{
+  "name": "nyt_leaderboard_bot",
+  "version": "1.0.0",
+  "description": "A discord bot that parses messages relating to the NYT connections game and creates a leaderboard.",
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "homepage": "https://github.com/Victor-M-Giraldo/NYT_Leaderboard_Bot#readme",
+  "bugs": {
+    "url": "https://github.com/Victor-M-Giraldo/NYT_Leaderboard_Bot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victor-M-Giraldo/NYT_Leaderboard_Bot.git"
+  },
+  "license": "ISC",
+  "author": "Victor Giraldo",
+  "type": "commonjs",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7"
+  }
+}
